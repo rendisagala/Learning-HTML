@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Table+Form (LATIHAN)</title>
+</head>
+<!-- Border sengaja dibuat nol untuk menghilangkan garis. Jadi, form lebih rapi -->
+
+<body>
+    <h1><strong> CONTOH FORM IDENTITAS DIRI</strong></h1>
+    <table border="0" cellspacing="0" cellpadding="1">
+        <thead>
+            <tr>
+                <td style="text-align:center">Username :</td>
+                <td style="text-align:center"><label for="username"></label>
+                    <input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><label for="password"></label>
+                    <input type="password" id="password"></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2" style="text-align:center"><input type="radio" id="pria" name="jenis kelamin"><label for="pria">Pria</label>
+                    <input type="radio" id="wanita" name="jenis kelamin">Wanita<label for="wanita"></label></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center"><input type="checkbox" id="menyanyi" name: "hobby"><label for="menyanyi">menyanyi</label>
+                    <input type="checkbox" id="membaca" name: "hobby"><label for="membaca">membaca</label>
+                    <input type="checkbox" id="olahraga" name: "hobby"><label for="olahraga">olahraga</label>
+                    <br><input type="checkbox" id="lain-lain" name: "hobby"><label for="lain-lain">lain-lain</label><input type="text" id="lain-lain" name="hobby"></td>
+            </tr>
+            <tr>
+                <td style="text-align:center">Asal Wilayah</td>
+                <td style="text-align:center"><select>
+                    <option>Indonesia Barat</option>
+                    <option>Indonesia Tengah</option>
+                    <option>Indonesia Timur</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td style="text-align:center">Tambahan :</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center">
+                    <button type="submit">SEND!!</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br><br><br>
+    <h4><b>Harus sama seperti di bawah</b></h4>
+    <img src="contoh form.png" width="30%">
+</body>
+
+</html>
